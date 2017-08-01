@@ -1,0 +1,36 @@
+# gengetopt < ../gengetopt/option.ggo  --output-dir=../gengetopt --file-name=option --unamed-opts
+
+package "BGNFCF" 
+
+version "(version 2)"
+
+purpose 
+
+"
+
+Ce programme a pour objectif de démontrer la faisabilité d'un traitement cohérent sur des données chiffrées, avec la cryptographie homomorphe. Il s'agit d'une preuve de concept. Les données traitées sont des sous-titres chiffrés avec le schéma homomorphe BGNFCF. Il s'agit d'une variante du schéma de Boneh Goh Nissim (2006) ayant subi la conversion de Freeman (2010) ainsi que la transformation de Catalano et Fiore (2015). Le traitement opéré sur les sous-titres est le changement de casse des caractères. Il s'opère en évaluant un circuit arithmétique de profondeur multiplicative 2.
+
+Description des circuits :
+
+minmaj : passage minuscule majuscule, sans erreur, avec précalcul et postcalcul
+demo : minmaj sur un caractère avec affichage des chiffrés et de l'évalué
+minmaj2 : passage minuscule majuscule, avec erreur
+minmaj3 : passage minuscule majuscule, avec erreur et postcalcul
+size : donne la taille en octets des chiffrés de différents niveaux
+time : donne le temps en millisecondes du précalcul, calcul et postcalcul
+time2 : donne le temps en millisecondes du chiffrement, de l'évaluation et du déchiffrement
+addition et multiplication : teste les différentes opérations possibles et donne le temps pour chacune
+chiffrement : chiffre et déchiffre en mode curve et twist sans évaluation homomorphique
+ip : mise à jour des ips et du compteur selon la valeur du compteur 
+scalar_product : calcul du produit scalaire de vecteur de bits
+
+La version 2 effectue du calcul parallèle avec OpenMP. Le temps de calcul est diminué si l'on dispose de processeurs multi-coeurs.
+
+
+"
+     
+#option "subtitle_source" s "Les sous-titres peuvent être choisis par le développeur ou l'utilisateur" values="dev", "usr" enum default="dev" optional
+
+option "subtitle" s "Pour indiquer les sous-titres en ligne de commande" string typestr="SUBTITLE" optional
+
+option "circuit" c "Pour indiquer le circuit de calcul. minmaj=avec précalcul et postcalcul, minmaj2=avec erreur, minmaj3=avec erreur et postcalcul." values="minmaj", "chiffrement", "additionL1", "additionL2", "additionL3", "additionL4", "multiplicationL1", "multiplicationL1L2", "multiplicationL2", "size", "time", "minmaj2", "minmaj3", "demo", "ip", "scalar_product", "time2" enum default="minmaj" optional

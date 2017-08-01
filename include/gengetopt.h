@@ -1,0 +1,3 @@
+/** gengetopt **/
+
+#include "option.h"
