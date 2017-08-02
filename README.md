@@ -19,7 +19,7 @@ BGN2 is written in C++ language and uses as main dependency, the library dclxvi-
 
 Dependency repository: https://github.com/BGN2/BGN2/tree/master/dclxvi-20130329
 
-For compatibility reasons between programming languages, it is part of our repository in /dclxvi-20130329 directory. 
+For compatibility reasons between programming languages, it is already integrated in /dclxvi-20130329 directory. 
 
 # References
 [BGN05] : Dan Boneh, Eu-Jin Goh, and Kobbi Nissim. Evaluating 2-DNF Formulas on Ciphertexts. In Joe Kilian, editor, Theory of Cryptography, Second Theory of Cryptography Conference, TCC 2005, Cambridge, MA, USA, February 10-12, 2005, Proceedings, volume 3378 of Lecture Notes in Computer Science, pages 325–341. Springer, 2005.
