@@ -13,11 +13,13 @@ Our scheme is based on an improvement of [BGN05], that we call BGN-F-CF, and whi
 # Dependencies and Installation
 To use the implementation BGN2, copy/clone the repository, go to /src directory and use make command to construct binaries in /bin directory.
 
-Additional options in Makefile and more info using the flag -h with binaries.
+Additional options in Makefile and more info using the flag -h with generated binaries.
 
-For C/C++ compatibility reasons wih our program, the dependency dclxvi-20130329 is included in the repository.
+BGN2 is written in C++ language and uses as main dependency, the library dclxvi-20130329, written in C and qhasm languages.
 
-https://github.com/BGN2/BGN2/tree/master/dclxvi-20130329
+Dependency repository: https://github.com/BGN2/BGN2/tree/master/dclxvi-20130329
+
+For compatibility reasons between programming languages, it is part of our repository in /dclxvi-20130329 directory. 
 
 # References
 [BGN05] : Dan Boneh, Eu-Jin Goh, and Kobbi Nissim. Evaluating 2-DNF Formulas on Ciphertexts. In Joe Kilian, editor, Theory of Cryptography, Second Theory of Cryptography Conference, TCC 2005, Cambridge, MA, USA, February 10-12, 2005, Proceedings, volume 3378 of Lecture Notes in Computer Science, pages 325–341. Springer, 2005.
