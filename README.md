@@ -11,7 +11,7 @@ by Vincent Herbert, Bhaskar Biswas and Caroline Fontaine.
 Our scheme is based on an improvement of [BGN05], that we call BGN-F-CF, and which can homomorphically evaluate polynomial of degree at most 4. This solution provides smaller ciphertexts than lattice based solutions, and its security is based on a hard problem that has been investigated in depth. More precisely, it employs together two improvements of the original BGN scheme [BGN05], based on [F10] and [CF15]. Only Freeman's work [F10] has already been coupled with BGN in [G13A,G13B] to greatly improve BGN's speed, resulting in a scheme that we call here BGN-F. To our knowledge, it is the first time that Catalone and Fiore's construction [CF15] is applied to this particular setting in order to add one more multiplicative depth.
 
 # Dependencies and Installation
-To use the program, copy/clone the repository, go to /src directory and use make command to construct binaries in /bin directory.
+To use the implementation BGN2, copy/clone the repository, go to /src directory and use make command to construct binaries in /bin directory.
 
 Additional options in Makefile and more info using the flag -h with binaries.
 
