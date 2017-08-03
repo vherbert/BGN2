@@ -7,6 +7,8 @@ BGN2 is a free software, it is the implementation of scheme described in the art
 "Design and Implementation of Low Depth Pairing-based Homomorphic Encryption Scheme" 
 by Vincent Herbert, Bhaskar Biswas and Caroline Fontaine.
 
+Cryptology ePrint Archive: https://eprint.iacr.org/2017/091
+
 # Description
 Our scheme is based on an improvement of [BGN05], that we call BGN-F-CF, and which can homomorphically evaluate polynomial of degree at most 4. This solution provides smaller ciphertexts than lattice based solutions, and its security is based on a hard problem that has been investigated in depth. More precisely, it employs together two improvements of the original BGN scheme [BGN05], based on [F10] and [CF15]. Only Freeman's work [F10] has already been coupled with BGN in [G13A,G13B] to greatly improve BGN's speed, resulting in a scheme that we call here BGN-F. To our knowledge, it is the first time that Catalone and Fiore's construction [CF15] is applied to this particular setting in order to add one more multiplicative depth.
 
