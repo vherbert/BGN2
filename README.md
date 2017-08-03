@@ -27,7 +27,7 @@ Other dependencies: make, g++.
 
 # Problems and solutions
 
-On ArchLinux, with gcc version 7.1.1, we met the following situation on 03/08/17:
+(03/08/17) On ArchLinux, with gcc version 7.1.1, we met the following situation:
 - Hello, I have linker error messages after typing make. What can I do?
 - Hello, you can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
 
