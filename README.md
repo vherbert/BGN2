@@ -17,11 +17,17 @@ Additional options in Makefile and more info using the flag -h with generated bi
 
 BGN2 is written in C++ language and uses as main dependency, the library dclxvi-20130329, written in C and qhasm languages.
 
-Other dependencies: make, g++. If make command prints linker error messages at the end, you can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
+Other dependencies: make, g++.
 
 For compatibility reasons between programming languages, it is already integrated in /dclxvi-20130329 directory. 
 
 DCXLVI: https://www.cryptojedi.org/crypto/#dclxvi
+
+# Problems and solutions
+
+- I have linker error messages after typing make. 
+- You can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
+
 
 # References
 [BGN05] : Dan Boneh, Eu-Jin Goh, and Kobbi Nissim. Evaluating 2-DNF Formulas on Ciphertexts. In Joe Kilian, editor, Theory of Cryptography, Second Theory of Cryptography Conference, TCC 2005, Cambridge, MA, USA, February 10-12, 2005, Proceedings, volume 3378 of Lecture Notes in Computer Science, pages 325–341. Springer, 2005.
