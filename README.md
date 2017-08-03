@@ -25,8 +25,8 @@ DCXLVI: https://www.cryptojedi.org/crypto/#dclxvi
 
 # Problems and solutions
 
-- I have linker error messages after typing make. 
-- You can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
+- Hello, I have linker error messages after typing make. What can I do?
+- Hello, you can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
 
 
 # References
