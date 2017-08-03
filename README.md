@@ -17,11 +17,11 @@ Additional options in Makefile and more info using the flag -h with generated bi
 
 BGN2 is written in C++ language and uses as main dependency, the library dclxvi-20130329, written in C and qhasm languages.
 
-Other dependencies: make, g++.
-
 For compatibility reasons between programming languages, it is already integrated in /dclxvi-20130329 directory. 
 
 DCXLVI: https://www.cryptojedi.org/crypto/#dclxvi
+
+Other dependencies: make, g++.
 
 # Problems and solutions
 
