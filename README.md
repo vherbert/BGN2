@@ -17,7 +17,7 @@ Additional options in Makefile and more info using the flag -h with generated bi
 
 BGN2 is written in C++ language and uses as main dependency, the library dclxvi-20130329, written in C and qhasm languages.
 
-Other dependencies: make, g++. If make command prints linker error messages at the end, you can 1) install gcc5, 2) replace g++ by g++-5 in src/Makefile and 3) type make again.
+Other dependencies: make, g++. If make command prints linker error messages at the end, you can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
 
 DCXLVI: https://github.com/BGN2/BGN2/tree/master/dclxvi-20130329
 
