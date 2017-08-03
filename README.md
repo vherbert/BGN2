@@ -19,7 +19,7 @@ BGN2 is written in C++ language and uses as main dependency, the library dclxvi-
 
 Other dependencies: make, g++. If make command prints linker error messages at the end, you can 1) install gcc5, 2) replace g++ by g++-5 in /src/Makefile and 3) type make again.
 
-DCXLVI: https://github.com/BGN2/BGN2/tree/master/dclxvi-20130329
+DCXLVI: https://www.cryptojedi.org/crypto/#dclxvi
 
 For compatibility reasons between programming languages, it is already integrated in /dclxvi-20130329 directory. 
 
