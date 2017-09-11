@@ -44,3 +44,5 @@ Paris - ENS Paris, December 2013.
 
 [G13B] : Aurore Guillevic. Comparing the Pairing Efficiency over Composite-Order and Prime-Order Elliptic Curves. In Applied Cryptography and Network Security - 11th International Conference, ACNS 2013, Banff, AB, Canada, June 25-28, 2013. Proceedings, pages 357–372, 2013.
 
+# Acknowledgement 
+This work has been funded by Region Bretagne under grant AAP PME 2014, 14006192.
